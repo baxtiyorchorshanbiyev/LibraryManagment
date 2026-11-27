@@ -58,5 +58,6 @@ public abstract class LibraryItem : IDisplayable
     {
         this.IsAvailable = true;
     }
-
+    
+    punlic abstract void DisplayInfo();
 }
