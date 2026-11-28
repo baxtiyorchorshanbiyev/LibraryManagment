@@ -24,4 +24,9 @@ public class Book : LibraryItem
         MaxLoanDays: {MaxLoanDays}
         """;
     }
+
+    public override void DisplayInfo()
+    {
+        Console.WriteLine(GetSummary());
+    }
 }
